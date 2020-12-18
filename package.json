@@ -1,7 +1,8 @@
 {
   "name": "@burstware/expo-plaid-link",
-  "main": "node_modules/expo/AppEntry.js",
-  "types": "build/PlaidLink.d.ts",
+  "version": "1.0.0",
+  "description": "Use the official Plaid Link flow inside your expo app.",
+  "main": "PlaidLink.tsx",
   "homepage": "https://github.com/burstware/expo-plaid-link#readme",
   "repository": {
     "type": "git",

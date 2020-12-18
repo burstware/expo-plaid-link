@@ -4,7 +4,7 @@
   </a>
 </p>
 
-# Plaid Link Expo
+# Expo Plaid Link
 
 [![NPM](https://img.shields.io/badge/npm-1.0.2-blue)](https://www.npmjs.org/@burstware/react-native-portal)
 
@@ -19,7 +19,7 @@ Use the official [Plaid Link](https://plaid.com/docs/link/) flow inside your exp
 ## Installation
 
 ```bash
-npm i --save @burstware/expo-plaid-link
+yarn add @burstware/expo-plaid-link
 ```
 
 ## Usage
