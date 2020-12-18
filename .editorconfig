@@ -1,0 +1,15 @@
+# You can get more info on this file at: https://editorconfig.org
+
+# This is the top-most EditorConfig file
+root = true
+
+# Unix-style newlines with a newline ending every file
+[*]
+end_of_line = lf
+insert_final_newline = true
+
+# UTF-8 charset and 2-space indentation for js, json, yml
+[*.{js,json,yml}]
+charset = utf-8
+indent_style = space
+indent_size = 2
