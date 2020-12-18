@@ -1,6 +1,15 @@
 {
-  "name": "@burstware/plaid-link-expo",
-  "main": "node_modules/expo/AppEntry.js",
+  "name": "@burstware/expo-plaid-link",
+  "main": "build/PlaidLink.js",
+  "types": "build/PlaidLink.d.ts",
+  "homepage": "https://github.com/burstware/expo-plaid-link#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/burstware/expo-plaid-link.git"
+  },
+  "bugs": {
+    "url": "https://github.com/burstware/expo-plaid-link/issues"
+  },
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",
@@ -26,5 +35,6 @@
     "tslint-react": "^5.0.0",
     "typescript": "~4.0.0"
   },
+  "license": "MIT",
   "private": true
 }

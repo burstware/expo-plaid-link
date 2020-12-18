@@ -11,7 +11,7 @@
 Use the official [Plaid Link](https://plaid.com/docs/link/) flow inside your expo app.
 
 <p align="center">
-  <a href="https://www.burstware.com/plaid-link-expo">
+  <a href="https://www.burstware.com/expo-plaid-link">
       <img src="https://plaid.com/assets/img/products/link-example-img.png" width="30%" />
   </a>
 </p>
@@ -19,7 +19,7 @@ Use the official [Plaid Link](https://plaid.com/docs/link/) flow inside your exp
 ## Installation
 
 ```bash
-npm i --save @burstware/plaid-link-expo
+npm i --save @burstware/expo-plaid-link
 ```
 
 ## Usage
@@ -27,7 +27,7 @@ npm i --save @burstware/plaid-link-expo
 ```typescript
 import React from 'react'
 import { Text, View } from 'react-native'
-import PlaidLink from '@burstware/plaid-link-expo'
+import PlaidLink from '@burstware/expo-plaid-link'
 
 export default function (props) {
   return <PlaidLink />
