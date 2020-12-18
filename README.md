@@ -26,10 +26,17 @@ npm i --save @burstware/expo-plaid-link
 
 ```typescript
 import React from 'react'
-import { Text, View } from 'react-native'
 import PlaidLink from '@burstware/expo-plaid-link'
+import Config from './config'
 
-export default function (props) {
-  return <PlaidLink />
+export default function App() {
+  return (
+    <PlaidLink
+      linkToken={Config.TEST_LINK_TOKEN}
+      onEvent={(event) => console.log(event)}
+      onExit={(exit) => console.log(exit)}
+      onSuccess={(success) => console.log(success)}
+    />
+  )
 }
 ```

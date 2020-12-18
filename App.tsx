@@ -1,21 +1,14 @@
-import { StatusBar } from 'expo-status-bar'
 import React from 'react'
-import { StyleSheet, Text, View } from 'react-native'
+import PlaidLink from './PlaidLink'
+import Config from './config'
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.tsx to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
+    <PlaidLink
+      linkToken={Config.TEST_LINK_TOKEN}
+      onEvent={(event) => console.log(event)}
+      onExit={(exit) => console.log(exit)}
+      onSuccess={(success) => console.log(success)}
+    />
   )
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-})
