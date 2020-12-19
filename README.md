@@ -6,7 +6,7 @@
 
 # Expo Plaid Link
 
-[![NPM](https://img.shields.io/badge/npm-1.0.2-blue)](https://www.npmjs.org/@burstware/react-native-portal)
+[![NPM](https://img.shields.io/badge/npm-1.0.2-blue)](https://www.npmjs.org/@burstware/expo-plaid-link)
 
 Use the official [Plaid Link](https://plaid.com/docs/link/) flow inside your expo app.
 
