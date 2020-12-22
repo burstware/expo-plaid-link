@@ -35,8 +35,23 @@ export default function App() {
       linkToken={Config.TEST_LINK_TOKEN}
       onEvent={(event) => console.log(event)}
       onExit={(exit) => console.log(exit)}
-      onSuccess={(success) => console.log(success)}
+      onSuccess={(success) => console.log(success.publicToken)}
     />
   )
 }
 ```
+
+_See `types.ts` for data structure format for `onEvent` (see type `LinkEvent`), `onExit` (see type `LinkExit`), and `onSuccess` (see type `LinkSuccess`) function return values._
+
+## Demo
+
+1. `git clone git@github.com:burstware/expo-plaid-link.git`
+2. Create a file in the root of the project called `config.ts` with a link token:
+
+```
+export default {
+  TEST_LINK_TOKEN: 'link-development-deadbeef-7b58-4877-8b44-123456789abcdef',
+}
+```
+
+3. `yarn start`
