@@ -104,7 +104,7 @@ export default function PlaidLink({
   return (
     <WebView
       source={{
-        uri: `https://cdn.plaid.com/link/v2/stable/link.html?isWebView=true&token=${linkToken}`,
+        uri: `https://cdn.plaid.com/link/v2/stable/link.html?isWebview=true&token=${linkToken}`,
       }}
       ref={(ref) => (webviewRef = ref)}
       originWhitelist={['https://*', 'plaidlink://*']}
