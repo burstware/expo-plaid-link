@@ -46,7 +46,7 @@ export interface LinkExitMetadata {
   institution?: LinkInstitution
   linkSessionId: string
   requestId: string
-  metadataJson?: String
+  metadataJson?: string
 }
 
 export interface LinkError {
@@ -72,8 +72,8 @@ export enum LinkExitMetadataStatus {
 }
 
 export interface LinkInstitution {
-  id: String
-  name: String
+  id: string
+  name: string
 }
 
 export enum LinkErrorCode {
@@ -205,20 +205,18 @@ export interface LinkSuccess {
 export interface LinkSuccessMetadata {
   institution?: LinkInstitution
   accounts: LinkAccount[]
-  linkSessionId: String
-  metadataJson?: String
+  linkSessionId: string
+  metadataJson?: string
 }
 
 export interface LinkAccount {
-  id: String
-  name?: String
-  mask?: String
+  id: string
+  name?: string
+  mask?: string
   type: LinkAccountType
-  subtype: LinkAccountSubtype
+  subtype: LinkAccountSubtypes
   verificationStatus?: LinkAccountVerificationStatus
 }
-
-export interface LinkAccountSubtype {}
 
 enum LinkAccountType {
   CREDIT = 'credit',
