@@ -53,5 +53,5 @@ export default {
   TEST_LINK_TOKEN: 'link-development-deadbeef-7b58-4877-8b44-123456789abcdef',
 }
 ```
-
-3. `yarn start`
+3. Update the `main` entry in `package.json` to `"main": "node_modules/expo/AppEntry.js",`
+4. `yarn start`
