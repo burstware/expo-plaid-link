@@ -28,7 +28,12 @@ export default function PlaidLink({
   const handleNavigationStateChange = (event: any) => {
     if (event.url.startsWith('plaidlink://')) {
       console.log(event.url)
-      const eventParams = queryString.parse(event.url)
+      const eventParams = queryString.parse(
+        event.url.replace(
+          /plaidlink:\/\/event|plaidlink:\/\/exit|plaidlink:\/\/connected/gi,
+          ''
+        )
+      )
 
       const linkSessionId = eventParams.link_session_id as string
       const mfaType = eventParams.mfa_type as string
