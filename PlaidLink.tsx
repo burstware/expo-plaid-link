@@ -107,6 +107,7 @@ export default function PlaidLink({
         uri: `https://cdn.plaid.com/link/v2/stable/link.html?isWebview=true&token=${linkToken}`,
       }}
       ref={(ref) => (webviewRef = ref)}
+      onError={ () => webviewRef.reload() }
       originWhitelist={['https://*', 'plaidlink://*']}
       onShouldStartLoadWithRequest={handleNavigationStateChange}
     />
