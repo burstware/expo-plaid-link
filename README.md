@@ -8,7 +8,7 @@
 
 [![NPM](https://img.shields.io/badge/npm-1.0.4-blue)](https://www.npmjs.org/@burstware/expo-plaid-link)
 
-Use the official [Plaid Link](https://plaid.com/docs/link/) flow inside your expo app.
+Use the [Plaid Link](https://plaid.com/docs/link/) flow inside your expo app.
 
 <p align="center">
   <a href="https://www.burstware.com/expo-plaid-link">
