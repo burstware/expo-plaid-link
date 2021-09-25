@@ -1,7 +1,7 @@
 {
   "name": "@burstware/expo-plaid-link",
-  "version": "1.0.4",
-  "description": "Use the official Plaid Link flow inside your expo app.",
+  "version": "1.0.5",
+  "description": "Use the Plaid Link flow inside your expo app.",
   "main": "PlaidLink.tsx",
   "homepage": "https://github.com/burstware/expo-plaid-link#readme",
   "repository": {
