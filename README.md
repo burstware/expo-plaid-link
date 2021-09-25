@@ -6,7 +6,7 @@
 
 # Expo Plaid Link
 
-[![NPM](https://img.shields.io/badge/npm-1.0.4-blue)](https://www.npmjs.org/@burstware/expo-plaid-link)
+[![NPM](https://img.shields.io/badge/npm-1.0.5-blue)](https://www.npmjs.org/@burstware/expo-plaid-link)
 
 Use the [Plaid Link](https://plaid.com/docs/link/) flow inside your expo app.
 
@@ -53,5 +53,6 @@ export default {
   TEST_LINK_TOKEN: 'link-development-deadbeef-7b58-4877-8b44-123456789abcdef',
 }
 ```
+
 3. Update the `main` entry in `package.json` to `"main": "node_modules/expo/AppEntry.js",`
 4. `yarn start`
