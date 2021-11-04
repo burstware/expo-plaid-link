@@ -13,3 +13,4 @@ config.ts
 
 # macOS
 .DS_Store
+.vscode
