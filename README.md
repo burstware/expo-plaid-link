@@ -7,6 +7,7 @@
 # Expo Plaid Link
 
 [![NPM](https://img.shields.io/badge/npm-1.1.0-blue)](https://www.npmjs.org/@burstware/expo-plaid-link)
+[![Slack](https://img.shields.io/badge/chat-slack-green)](https://form.typeform.com/to/vyAEGkWC)
 
 Use the [Plaid Link](https://plaid.com/docs/link/) flow inside your expo app.
 
