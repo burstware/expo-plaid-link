@@ -1,3 +1,5 @@
+> IMPORTANT: This repository is not actively maintained. If someone would like to, please reach out in the issues.
+
 <p align="center">
   <a href="https://burstware.com">
       <img src="https://s3-us-west-2.amazonaws.com/burstware.com/img/burstware+horizontal.png" width="30%" />
