@@ -2,6 +2,7 @@ import React, { useRef } from "react";
 import { WebView } from "react-native-webview";
 import queryString from "query-string";
 import { LinkErrorCode, LinkErrorType, LinkExitMetadataStatus } from './const'
+import Constants from 'expo-constants';
 
 export default function PlaidLink({ linkToken, onEvent, onExit, onSuccess }) {
   let webviewRef = useRef();
@@ -82,6 +83,10 @@ export default function PlaidLink({ linkToken, onEvent, onExit, onSuccess }) {
     <WebView
       source={{
         uri: `https://cdn.plaid.com/link/v2/stable/link.html?isWebview=true&token=${linkToken}`,
+      }}
+      style={{
+        flex: 1,
+        marginTop: Constants.statusBarHeight,
       }}
       ref={(ref) => (webviewRef = ref)}
       onError={() => webviewRef.reload()}
