@@ -1,6 +1,6 @@
 {
   "name": "@burstware/expo-plaid-link",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Use the Plaid Link flow inside your expo app",
   "main": "Index.jsx",
   "scripts": {

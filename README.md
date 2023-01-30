@@ -8,7 +8,7 @@
 
 # Expo Plaid Link
 
-[![NPM](https://img.shields.io/badge/npm-1.1.0-blue)](https://www.npmjs.org/@burstware/expo-plaid-link)
+[![NPM](https://img.shields.io/badge/npm-1.0.7-blue)](https://www.npmjs.org/@burstware/expo-plaid-link)
 
 Use the [Plaid Link](https://plaid.com/docs/link/) flow inside your expo app.
 
