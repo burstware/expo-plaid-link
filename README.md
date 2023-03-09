@@ -1,5 +1,3 @@
-> IMPORTANT: This repository is not actively maintained. If someone would like to, please reach out in the issues.
-
 <p align="center">
   <a href="https://burstware.com">
       <img src="https://s3-us-west-2.amazonaws.com/burstware.com/img/burstware+horizontal.png" width="30%" />
@@ -13,7 +11,7 @@
 Use the [Plaid Link](https://plaid.com/docs/link/) flow inside your expo app.
 
 <p align="center">
-  <a href="https://www.burstware.com/expo-plaid-link">
+  <a href="https://github.com/burstware/expo-plaid-link/">
       <img src="https://plaid.com/assets/img/products/link-example-img.png" width="30%" />
   </a>
 </p>
