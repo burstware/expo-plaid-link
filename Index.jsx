@@ -24,6 +24,10 @@ export default function PlaidLink({ linkToken, onEvent, onExit, onSuccess }) {
       const institutionSearchQuery = eventParams.institution_search_query;
       const timestamp = eventParams.timestamp;
 
+      if (!linkToken) {
+        console.warn("No link token provided.");
+      }
+      
       if (event.url.startsWith("plaidlink://event") && onEvent) {
         onEvent({
           eventName: eventParams.event_name,
