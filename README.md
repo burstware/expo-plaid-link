@@ -1,8 +1,4 @@
-<p align="center">
-  <a href="https://burstware.com">
-      <img src="https://s3-us-west-2.amazonaws.com/burstware.com/img/burstware+horizontal.png" width="30%" />
-  </a>
-</p>
+
 
 # Expo Plaid Link
 
@@ -41,4 +37,35 @@ export default function App() {
 }
 ```
 
+
+## Example Callback Functions
+```javascript
+const onEventCallback = (event: LinkEvent) => {
+  console.log(`Event occurred: ${event.eventName}`, event.metadata);
+  // Additional event handling based on the event can be added here
+};
+
+
+const onExitCallback = (exitInfo: LinkExit) => {
+  if (exitInfo.error.errorCode) {
+    // Here, errorCode is checked to determine if there was an error
+    console.error(`Exited with error: ${exitInfo.error.errorMessage} (Code: ${exitInfo.error.errorCode})`);
+  } else {
+    console.log(`Exited without error. Status: ${exitInfo.metadata.status}`);
+  }
+  // Additional exit handling logic can be added here
+};
+
+
+const onSuccessCallback = (successInfo: LinkSuccess) => {
+  console.log(`Connection successful. Public Token: ${successInfo.publicToken}`, successInfo.metadata);
+  // This is where you might handle the successful connection, like sending the publicToken to your server
+};
+
+
+```
+
+
 _See `const.js` for data structure format for `onEvent` (see type `LinkEvent`), `onExit` (see type `LinkExit`), and `onSuccess` (see type `LinkSuccess`) function return values._
+
+
